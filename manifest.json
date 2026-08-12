@@ -1,0 +1,10 @@
+{
+    "id": "f4e91c0d",
+    "name": "Balatro Easy Mode",
+    "author": ["ThewyBrake09"],
+    "description": "Enjoy Balatro experience where the shop is always stacked in your favor. Jokers are blown wide open and Legendary prices are slashed to the bone. Sit back, relax, and watch the millions roll in effortlessly. ",
+    "prefix": "z7x",
+    "main_file": "main.lua",
+    "badge_colour": "c7638f",
+    "version": "1.0.0-beta"
+}
