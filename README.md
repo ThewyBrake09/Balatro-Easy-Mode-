@@ -1,9 +1,6 @@
-# Balatro-Easy-Mode-
-A mod that make your balatro more easier to play for casual player who didn't like grind work
+### Balatro Easy Mode
 
-Tired of constantly resetting or hunting for the absolute "god seed" just to see a decent card in the shop? 
-
-This mod solves all of that. No more exhausting, endless grinding just to pull a good deck or praying to RNGesus. With this mod, you can just sit back, relax, and actually enjoy getting all the Jokers you want in every single run!
+Aren't you tired of constantly alt-tabbing to check external sites just to see if a good card is coming up? Why spend the whole game just peeking ahead when you could just enjoy the ride? Or endless seed-hunting just to force a good synergy? Following a rigid guide step-by-step takes away all the fun of actual decision-making—if you miss one step, the whole build falls apart anyway. Let this mod handle the tedious stuff so you can just focus on having fun!
 
 ### How It Works
 
