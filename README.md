@@ -12,12 +12,6 @@ Or endless seed-hunting just to force a good synergy? Following a rigid guide st
 
 >> Warning: Do not delete or modify the `raritylock` function. As a result, the game will fallback to `j_joker` as a default card, causing it to spam and show up way too often in the shop.
 
-## Features
-* Rarity Lock & Rarity Tweaks: Changes specific Joker pools and rarities so you can experience top-tier cards much more often.
-* Affordable Legendaries: Legendary Jokers are priced reasonably in the shop ($12) so you don't go broke trying to buy them.
-* Joker-Only Duplicate Toggle: Allows you to find and buy duplicate Jokers easily if you want to stack your favorites.
-* Zero Stress, Maximum Fun: Skip the sweat and focus entirely on building the craziest, most overpowered synergies possible.
-
 
 ## How to Install
 1. Make sure you have Steamodded installed (https://github.com/Steamodded/smods).
