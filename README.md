@@ -1,5 +1,5 @@
 # Balatro-Easy-Mode-
-A mod that make your balatro more easier to play as beginner
+A mod that make your balatro more easier to play for casual player who didn't like grind work
 
 Tired of constantly resetting or hunting for the absolute "god seed" just to see a decent card in the shop? 
 
