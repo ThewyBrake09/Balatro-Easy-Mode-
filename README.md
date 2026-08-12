@@ -4,9 +4,9 @@ Aren't you tired of constantly alt-tabbing to check external sites just to see i
 
 ### How It Works
 
-* Rarity Weights & Pool Management: The mod modifies the internal probability tables to increase the spawn rates of higher-tier items.
-* Rarity Lock : This function enforces structural boundaries on card pools.
-* Modified Joker : This function handles custom pricing adjustments and spawn parameters specifically tailored for legendary jokers to scale down their base costs and future balancing.
+* The mod modifies the internal probability tables to increase the spawn rates of higher-tier items.
+* Rarity Lock function enforces structural boundaries on card pools.
+* Modified Joker function handles custom pricing adjustments and spawn parameters specifically tailored for legendary jokers to scale down their base costs and future balancing.
 
 >> Warning: Do not delete or modify the `raritylock` function. As a result, the game will fallback to `j_joker` as a default card, causing it to spam and show up way too often in the shop.
 
