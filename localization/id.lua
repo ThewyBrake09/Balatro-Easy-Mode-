@@ -10,9 +10,10 @@ return {
                 },
             },
         },
-    misc = {
-        labels = {
-            j_baseball = "Kartu Bisbol"
+        misc = {
+            labels = {
+                j_baseball = "Kartu Bisbol"
+            },
         },
-    }},
+    }
 }
