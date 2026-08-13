@@ -14,25 +14,5 @@ return {
         labels = {
             j_baseball = "Kartu Bisbol"
         },
-    },
-        -- spectral
-        Spectral = {
-            c_ankh = {
-                name = "Ankh",
-                text = {
-                    "Buat sebuah salinan",
-                    "acak {C:attention}Joker{}"
-                },
-            },
-            
-            c_ectoplasm={
-                name="Ectoplasm",
-                text={
-                    "Menambah {C:dark_edition}Negatif{} ke",
-                    "{C:attention}Joker secara acak,",
-                    "{C:red}+1{} ukuran poker hand",
-                },
-            },
-        },
-    },
+    }},
 }
