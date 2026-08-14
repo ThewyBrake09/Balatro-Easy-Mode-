@@ -1,103 +1,64 @@
-local modified_jokers = {
-    -- Original legendary card pool, rarity = 4
-    { key = 'j_perkeo', rarity = 1, cost = 12 },
-    { key = 'j_triboulet', rarity = 1, cost = 12 },
-    { key = 'j_yorick', rarity = 1, cost = 12 },
-    { key = 'j_chicot', rarity = 1, cost = 12 },
-    { key = 'j_caino', rarity = 1, cost = 12 },
-    
-    -- Original rare card pool, rarity = 3
-    { key = 'j_dna', rarity = 1, cost = 8 },
-    { key = 'j_vagabond', rarity = 1, cost = 8 },
-    { key = 'j_baron', rarity = 1, cost = 8 },
-    { key = 'j_obelisk', rarity = 1, cost = 8 },
-    { key = 'j_baseball', rarity = 1, cost = 8 },
-    { key = 'j_ancient', rarity = 1, cost = 8 },
-    { key = 'j_campfire', rarity = 1, cost = 9 },
-    { key = 'j_blueprint', rarity = 1, cost = 10 },
-    { key = 'j_wee', rarity = 1, cost = 8 },
-    { key = 'j_hit_the_road', rarity = 1, cost = 8 },
-    { key = 'j_duo', rarity = 1, cost = 8 },
-    { key = 'j_trio', rarity = 1, cost = 8 },
-    { key = 'j_family', rarity = 1, cost = 8 },
-    { key = 'j_order', rarity = 1, cost = 8 },
-    { key = 'j_tribe', rarity = 1, cost = 8 },
-    { key = 'j_stuntman', rarity = 1, cost = 7 },
-    { key = 'j_invisible', rarity = 1, cost = 8 },
-    { key = 'j_brainstorm', rarity = 1, cost = 10 },
-    { key = 'j_drivers_license', rarity = 1, cost = 7 },
-    { key = 'j_burnt', rarity = 1, cost = 8 },
-    
-    -- Original uncommon card pool, rarity = 2
-    { key = 'j_stencil', rarity = 1, cost = 8 },
-    { key = 'j_four_fingers', rarity = 1, cost = 7 },
-    { key = 'j_mime', rarity = 1, cost = 5 },
-    { key = 'j_ceremonial', rarity = 1, cost = 6 },
-    { key = 'j_marble', rarity = 1, cost = 6 },
-    { key = 'j_loyalty_card', rarity = 1, cost = 5 },
-    { key = 'j_dusk', rarity = 1, cost = 5 },
-    { key = 'j_fibonacci', rarity = 1, cost = 8 },
-    { key = 'j_steel_joker', rarity = 1, cost = 7 },
-    { key = 'j_hack', rarity = 1, cost = 6 },
-    { key = 'j_pareidolia', rarity = 1, cost = 5 },
-    { key = 'j_space', rarity = 1, cost = 5 },
-    { key = 'j_burglar', rarity = 1, cost = 6 },
-    { key = 'j_blackboard', rarity = 1, cost = 6 },
-    { key = 'j_sixth_sense', rarity = 1, cost = 6 },
-    { key = 'j_constellation', rarity = 1, cost = 6 },
-    { key = 'j_hiker', rarity = 1, cost = 5 },
-    { key = 'j_card_sharp', rarity = 1, cost = 6 },
-    { key = 'j_madness', rarity = 1, cost = 7 },
-    { key = 'j_seance', rarity = 1, cost = 6 },
-    { key = 'j_vampire', rarity = 1, cost = 7 },
-    { key = 'j_shortcut', rarity = 1, cost = 7 },
-    { key = 'j_hologram', rarity = 1, cost = 7 },
-    { key = 'j_cloud_9', rarity = 1, cost = 7 },
-    { key = 'j_rocket', rarity = 1, cost = 6 },
-    { key = 'j_midas_mask', rarity = 1, cost = 7 },
-    { key = 'j_luchador', rarity = 1, cost = 5 },
-    { key = 'j_gift', rarity = 1, cost = 6 },
-    { key = 'j_turtle_bean', rarity = 1, cost = 6 },
-    { key = 'j_erosion', rarity = 1, cost = 6 },
-    { key = 'j_to_the_moon', rarity = 1, cost = 5 },
-    { key = 'j_stone', rarity = 1, cost = 6 },
-    { key = 'j_lucky_cat', rarity = 1, cost = 6 },
-    { key = 'j_bull', rarity = 1, cost = 6 },
-    { key = 'j_diet_cola', rarity = 1, cost = 6 },
-    { key = 'j_trading', rarity = 1, cost = 6 },
-    { key = 'j_flash', rarity = 1, cost = 5 },
-    { key = 'j_trousers', rarity = 1, cost = 6 },
-    { key = 'j_ramen', rarity = 1, cost = 6 },
-    { key = 'j_selzer', rarity = 1, cost = 6 },
-    { key = 'j_castle', rarity = 1, cost = 6 },
-    { key = 'j_mr_bones', rarity = 1, cost = 5 },
-    { key = 'j_acrobat', rarity = 1, cost = 6 },
-    { key = 'j_sock_and_buskin', rarity = 1, cost = 6 },
-    { key = 'j_troubadour', rarity = 1, cost = 6 },
-    { key = 'j_certificate', rarity = 1, cost = 6 },
-    { key = 'j_smeared', rarity = 1, cost = 7 },
-    { key = 'j_throwback', rarity = 1, cost = 6 },
-    { key = 'j_rough_gem', rarity = 1, cost = 7 },
-    { key = 'j_bloodstone', rarity = 1, cost = 7 },
-    { key = 'j_arrowhead', rarity = 1, cost = 7 },
-    { key = 'j_onyx_agate', rarity = 1, cost = 7 },
-    { key = 'j_glass', rarity = 1, cost = 6 },
-    { key = 'j_ring_master', rarity = 1, cost = 5 },
-    { key = 'j_flower_pot', rarity = 1, cost = 6 },
-    { key = 'j_merry_andy', rarity = 1, cost = 7 },
-    { key = 'j_oops', rarity = 1, cost = 4 },
-    { key = 'j_idol', rarity = 1, cost = 6 },
-    { key = 'j_seeing_double', rarity = 1, cost = 6 },
-    { key = 'j_matador', rarity = 1, cost = 7 },
-    { key = 'j_satellite', rarity = 1, cost = 7 },
-    { key = 'j_cartomancer', rarity = 1, cost = 6 },
-    { key = 'j_astronomer', rarity = 1, cost = 8 },
-    { key = 'j_bootstraps', rarity = 1, cost = 7 },
+local custom_costs = {
+    ['j_blueprint'] = 10,
+    ['j_brainstorm'] = 10,
+    ['j_campfire'] = 9,
+    ['j_astronomer'] = 8,
+    ['j_four_fingers'] = 7,
+    ['j_stuntman'] = 7,
+    ['j_drivers_license'] = 7,
+    ['j_smeared'] = 7,
+    ['j_oops'] = 4,
 }
 
-for _, data in ipairs(modified_jokers) do
-    SMODS.Joker:take_ownership(data.key, {
-        rarity = data.rarity,
-        cost = data.cost,
-    })
+local function apply_joker_changes()
+    for key, card_data in pairs(G.P_CENTERS) do
+        if card_data.set == 'Joker' then
+            local final_cost = custom_costs[key]
+            
+            if not final_cost then
+                local original_rarity = card_data.rarity or 1
+                
+                if original_rarity == 4 then
+                    final_cost = 12
+                elseif original_rarity == 3 then
+                    final_cost = 8
+                elseif original_rarity == 2 then
+                    final_cost = 6
+                else
+                    final_cost = card_data.cost or 4
+                end
+            end
+
+            -- 1. Paksa ubah di G.P_CENTERS & Buka Kuncinya!
+            card_data.rarity = 1
+            card_data.cost = final_cost
+            card_data.unlocked = true
+            card_data.discovered = true
+
+            -- 2. Paksa ubah via SMODS take_ownership
+            if SMODS and SMODS.Joker then
+                pcall(function()
+                    SMODS.Joker:take_ownership(key, {
+                        rarity = 1,
+                        cost = final_cost,
+                        unlocked = true,
+                        discovered = true
+                    }, true)
+                end)
+            end
+        end
+    end
+end
+
+local original_start_up = Game.start_up
+function Game:start_up()
+    original_start_up(self)
+    apply_joker_changes()
+end
+
+local original_init_game_object = Game.init_game_object
+function Game:init_game_object(self)
+    local g = original_init_game_object(self)
+    apply_joker_changes()
+    return g
 end
