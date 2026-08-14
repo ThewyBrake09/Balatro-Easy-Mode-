@@ -7,9 +7,6 @@
 --- Stable mod reference captured at load time (SMODS.current_mod is nil later).
 local THIS_MOD = SMODS.current_mod
 
---- PENIMPA HANDAL
-THIS_MOD.priority = 9999
-
 local path = SMODS.path_asi or (THIS_MOD and THIS_MOD.path) or (THIS_MOD and THIS_MOD.folder and ("Mods/" .. THIS_MOD.folder .. "/")) or ""
 
 THIS_MOD.config = THIS_MOD.config or {}
