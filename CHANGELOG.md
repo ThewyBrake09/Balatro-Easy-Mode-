@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Cleaning the code a bit
 - Language update
+- Compatible with all other mods :p 
 
 ## [1.0.1-beta] - 2026-06-14
 ### Added
