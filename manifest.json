@@ -7,5 +7,5 @@
     "main_file": "main.lua",
     "badge_colour": "c7638f",
     "version": "1.0.1-beta",
-    "priority": 9999
+    "priority": 100
 }
