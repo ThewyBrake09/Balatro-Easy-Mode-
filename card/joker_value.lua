@@ -29,13 +29,11 @@ local function apply_joker_changes()
                 end
             end
 
-            -- 1. Paksa ubah di G.P_CENTERS & Buka Kuncinya!
             card_data.rarity = 1
             card_data.cost = final_cost
             card_data.unlocked = true
             card_data.discovered = true
 
-            -- 2. Paksa ubah via SMODS take_ownership
             if SMODS and SMODS.Joker then
                 pcall(function()
                     SMODS.Joker:take_ownership(key, {
