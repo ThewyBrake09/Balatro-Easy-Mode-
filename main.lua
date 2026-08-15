@@ -133,9 +133,3 @@ THIS_MOD.config_tab = function()
         },
     }
 end
-
-                },
-            },
-        },
-    }
-end
