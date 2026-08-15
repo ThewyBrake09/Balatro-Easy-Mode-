@@ -11,8 +11,10 @@ local custom_costs = {
 }
 
 local function apply_joker_changes()
+    if not G or not G.P_CENTERS then return end
+
     for key, card_data in pairs(G.P_CENTERS) do
-        if card_data.set == 'Joker' then
+        if type(card_data) == 'table' and card_data.set == 'Joker' then
             local final_cost = custom_costs[key]
             
             if not final_cost then
@@ -38,19 +40,33 @@ local function apply_joker_changes()
                 SMODS.Centers[key].rarity = 1
                 SMODS.Centers[key].cost = final_cost
             end
+
+            if SMODS and SMODS.Jokers and SMODS.Jokers[key] then
+                SMODS.Jokers[key].rarity = 1
+                SMODS.Jokers[key].cost = final_cost
+            end
+        end
+    end
+
+    if G.P_JOKER_RARITY_POOLS then
+        G.P_JOKER_RARITY_POOLS[1] = {}
+        for key, card_data in pairs(G.P_CENTERS) do
+            if card_data.set == 'Joker' and not card_data.demo then
+                table.insert(G.P_JOKER_RARITY_POOLS[1], card_data)
+            end
         end
     end
 end
 
-local original_start_up = Game.start_up
-function Game:start_up()
-    original_start_up(self)
+local ref_reset_globals = Game.reset_game_globals
+function Game:reset_game_globals()
+    ref_reset_globals(self)
     apply_joker_changes()
 end
 
-local original_init_game_object = Game.init_game_object
-function Game:init_game_object(self)
-    local g = original_init_game_object(self)
+local ref_init_game = Game.init_game_object
+function Game:init_game_object()
+    local g = ref_init_game(self)
     apply_joker_changes()
     return g
 end
