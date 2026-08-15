@@ -3,12 +3,19 @@
 All notable changes to this project will be documented in this file.
 
 ### Changed
+- Fix uncommon rare legendary joker won't appear in shop because of compatibility update
+- Fix other mod description into nil value
+- Compatible with other mods without any weird thing happen so far 
+
+## [1.0.2-beta] - 2026-06-15
+### Added
+- Initial card_logic.lua
+
+### Changed
 - Cleaning the code a bit
 - Language update
 - Compatible with all other mods :p
 - I forgot to enable new joker baseball effect
-- Fix other mod description into nil value
-- Fix uncommon rare legendary joker won't appear at shop you guys dont give me a single feedback so i dont know if theres an issue
 
 ## [1.0.1-beta] - 2026-06-14
 ### Added
