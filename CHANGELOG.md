@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Compatible with all other mods :p
 - I forgot to enable new joker baseball effect
 - Fix other mod description into nil value
+- Fix uncommon rare legendary joker won't appear at shop you guys dont give me a single feedback so i dont know if theres an issue
 
 ## [1.0.1-beta] - 2026-06-14
 ### Added
