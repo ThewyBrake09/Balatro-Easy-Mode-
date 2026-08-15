@@ -34,15 +34,9 @@ local function apply_joker_changes()
             card_data.unlocked = true
             card_data.discovered = true
 
-            if SMODS and SMODS.Joker then
-                pcall(function()
-                    SMODS.Joker:take_ownership(key, {
-                        rarity = 1,
-                        cost = final_cost,
-                        unlocked = true,
-                        discovered = true
-                    }, true)
-                end)
+            if SMODS and SMODS.Centers and SMODS.Centers[key] then
+                SMODS.Centers[key].rarity = 1
+                SMODS.Centers[key].cost = final_cost
             end
         end
     end
