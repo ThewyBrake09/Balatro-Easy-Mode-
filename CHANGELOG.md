@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - Language update
 - Compatible with all other mods :p
 - I forgot to enable new joker baseball effect
+- Fix other mod description into nil value
 
 ## [1.0.1-beta] - 2026-06-14
 ### Added
