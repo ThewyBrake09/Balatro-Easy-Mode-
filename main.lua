@@ -2,9 +2,7 @@
 --- 1) Forces every Joker the game generates to a chosen rarity.
 --- 2) Optionally allows duplicate JOKERS (Joker-only Showman) so owned Jokers
 ---    can reappear in shops/packs and the pool never dries up.
---- 3) The Soul card logic: forces it to pull from the 5 custom-common legendaries.
-
---- Stable mod reference captured at load time (SMODS.current_mod is nil later).
+--- Stable mod reference captured at load time.
 local THIS_MOD = SMODS.current_mod
 
 local path = SMODS.path_asi or (THIS_MOD and THIS_MOD.path) or (THIS_MOD and THIS_MOD.folder and ("Mods/" .. THIS_MOD.folder .. "/")) or ""
@@ -33,13 +31,13 @@ local function get_config()
 end
 
 local ROLL_FOR_RARITY = {
-    [1] = 0.3,   -- Common   (<= 0.7)
-    [2] = 0.85,  -- Uncommon (0.7 - 0.95)
-    [3] = 0.99,  -- Rare     (> 0.95)
+    [1] = 0.3,   -- Common
+    [2] = 0.85,  -- Uncommon
+    [3] = 0.99,  -- Rare
 }
 
 ----------------------------------------------------------------------
---- Hook 1: force Joker rarity in create_card.
+--- Hook 1: Rarity Lock 
 ----------------------------------------------------------------------
 local ref_create_card = create_card
 
@@ -62,21 +60,36 @@ function create_card(_type, area, legendary, _rarity, skip_materialize, soulable
 end
 
 ----------------------------------------------------------------------
---- Hook 2: Joker-only duplicates.
+--- Hook 2: Safe Pool Fetcher
 ----------------------------------------------------------------------
 local ref_get_current_pool = get_current_pool
 
 function get_current_pool(_type, _rarity, _legendary, _append)
     local conf = get_config()
 
-    if conf and conf.allow_dupes and _type == 'Joker'
-       and G.GAME and G.GAME.used_jokers then
-        local saved = G.GAME.used_jokers
-        G.GAME.used_jokers = {}
+    if conf and conf.enabled and _type == 'Joker' then
+        local saved = nil
+        if conf.allow_dupes and G.GAME and G.GAME.used_jokers then
+            saved = G.GAME.used_jokers
+            G.GAME.used_jokers = {}
+        end
 
         local pool, pool_key = ref_get_current_pool(_type, _rarity, _legendary, _append)
 
-        G.GAME.used_jokers = saved
+        if not pool or #pool == 0 then
+            pool = {}
+            for k, v in pairs(G.P_CENTERS) do
+                if v.set == 'Joker' and not v.demo then
+                    table.insert(pool, k)
+                end
+            end
+            pool_key = 'Joker_Locked_Fallback'
+        end
+
+        if saved then
+            G.GAME.used_jokers = saved
+        end
+
         return pool, pool_key
     end
 
@@ -115,6 +128,12 @@ THIS_MOD.config_tab = function()
                             colour = G.C.UI.TEXT_LIGHT,
                         },
                     },
+                },
+            },
+        },
+    }
+end
+
                 },
             },
         },
