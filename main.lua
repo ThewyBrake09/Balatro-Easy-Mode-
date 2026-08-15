@@ -19,6 +19,7 @@ if THIS_MOD.config.allow_dupes == nil then THIS_MOD.config.allow_dupes = false e
 local files = {
     "card/joker_value.lua",
     "card/override.lua",
+    "card/joker_logic",
     "localization/id.lua",
     "localization/en-us.lua"
 }
