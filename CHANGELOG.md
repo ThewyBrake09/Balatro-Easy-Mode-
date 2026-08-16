@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 - Fix other mod description into nil value
 - Compatible with other mods without any weird thing happen so far 
 
-## [1.0.2-beta] - 2026-06-15
+## [1.0.2-beta] - 2026-08-15
 ### Added
 - Initial card_logic.lua
 
@@ -17,7 +17,7 @@ All notable changes to this project will be documented in this file.
 - Compatible with all other mods :p
 - I forgot to enable new joker baseball effect
 
-## [1.0.1-beta] - 2026-06-14
+## [1.0.1-beta] - 2026-08-14
 ### Added
 - Initial card_effects.lua
 - Initial joker_value.lua
@@ -29,7 +29,7 @@ All notable changes to this project will be documented in this file.
 - Ankh and Ectoplasma revamp
 - Update en-us.lua
 
-## [1.0.0] - 2026-06-06
+## [1.0.0] - 2026-08-12
 ### Added
 - Easier Joker pool.
 - Rarity Locking System.
