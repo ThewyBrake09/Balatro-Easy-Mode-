@@ -4,6 +4,8 @@ Aren't you tired of constantly alt-tabbing to check external sites just to see i
 
 Or endless seed-hunting just to force a good synergy? Following a rigid guide step by step takes away all the fun of actual decision making if you miss one step, the whole build falls apart anyway. Let this mod handle the tedious stuff so you can just focus on having fun!
 
+It still depend on your luck sooo check our `stats_proof` 
+
 ### How It Works
 
 * The mod modifies the internal probability tables to increase the spawn rates of higher-tier items.
