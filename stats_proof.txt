@@ -1,3 +1,6 @@
+Debug
+https://github.com/ThewyBrake09/Joker-Pool-Debug/tree/main
+
 Mod Enabled
 ==================================================================================
 BALATRO JOKER POOL 100000 SAMPLES
