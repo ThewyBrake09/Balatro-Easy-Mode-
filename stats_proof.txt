@@ -276,4 +276,43 @@ Sock and Buskin                  | [Uncommon] | Hits:   406 | Freq:  0.406%
 Astronomer                       | [Uncommon] | Hits:   404 | Freq:  0.404%
 Seeing Double                    | [Uncommon] | Hits:   403 | Freq:  0.403%
 Acrobat                          | [Uncommon] | Hits:   403 | Freq:  0.403%
-Card
+Card Sharp                       | [Uncommon] | Hits:   402 | Freq:  0.402%
+Midas Mask                       | [Uncommon] | Hits:   402 | Freq:  0.402%
+Mime                             | [Uncommon] | Hits:   400 | Freq:  0.400%
+Gift Card                        | [Uncommon] | Hits:   399 | Freq:  0.399%
+Ceremonial Dagger                | [Uncommon] | Hits:   399 | Freq:  0.399%
+Smeared Joker                    | [Uncommon] | Hits:   399 | Freq:  0.399%
+Diet Cola                        | [Uncommon] | Hits:   398 | Freq:  0.398%
+Satellite                        | [Uncommon] | Hits:   398 | Freq:  0.398%
+Vampire                          | [Uncommon] | Hits:   398 | Freq:  0.398%
+Marble Joker                     | [Uncommon] | Hits:   397 | Freq:  0.397%
+Blackboard                       | [Uncommon] | Hits:   395 | Freq:  0.395%
+Showman                          | [Uncommon] | Hits:   395 | Freq:  0.395%
+Shortcut                         | [Uncommon] | Hits:   395 | Freq:  0.395%
+Flash Card                       | [Uncommon] | Hits:   388 | Freq:  0.388%
+To the Moon                      | [Uncommon] | Hits:   387 | Freq:  0.387%
+Madness                          | [Uncommon] | Hits:   384 | Freq:  0.384%
+Erosion                          | [Uncommon] | Hits:   384 | Freq:  0.384%
+Merry Andy                       | [Uncommon] | Hits:   382 | Freq:  0.382%
+Cloud 9                          | [Uncommon] | Hits:   379 | Freq:  0.379%
+Bull                             | [Uncommon] | Hits:   377 | Freq:  0.377%
+Oops! All 6s                     | [Uncommon] | Hits:   374 | Freq:  0.374%
+Driver's License                 | [Rare    ] | Hits:   290 | Freq:  0.290%
+DNA                              | [Rare    ] | Hits:   278 | Freq:  0.278%
+The Trio                         | [Rare    ] | Hits:   277 | Freq:  0.277%
+Baron                            | [Rare    ] | Hits:   274 | Freq:  0.274%
+Campfire                         | [Rare    ] | Hits:   274 | Freq:  0.274%
+The Order                        | [Rare    ] | Hits:   273 | Freq:  0.273%
+Brainstorm                       | [Rare    ] | Hits:   272 | Freq:  0.272%
+The Tribe                        | [Rare    ] | Hits:   264 | Freq:  0.264%
+Wee Joker                        | [Rare    ] | Hits:   262 | Freq:  0.262%
+The Family                       | [Rare    ] | Hits:   261 | Freq:  0.261%
+Baseball Card                    | [Rare    ] | Hits:   257 | Freq:  0.257%
+Obelisk                          | [Rare    ] | Hits:   254 | Freq:  0.254%
+Ancient Joker                    | [Rare    ] | Hits:   254 | Freq:  0.254%
+Hit the Road                     | [Rare    ] | Hits:   252 | Freq:  0.252%
+Vagabond                         | [Rare    ] | Hits:   250 | Freq:  0.250%
+Burnt Joker                      | [Rare    ] | Hits:   249 | Freq:  0.249%
+Stuntman                         | [Rare    ] | Hits:   244 | Freq:  0.244%
+Blueprint                        | [Rare    ] | Hits:   244 | Freq:  0.244%
+The Duo                          | [Rare    ] | Hits:   234 | Freq:  0.234%
