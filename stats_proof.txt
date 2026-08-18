@@ -1,11 +1,10 @@
-Debug
-https://github.com/ThewyBrake09/Joker-Pool-Debug/tree/main
-
-Mod Enabled
+Mod enabled 
 ==================================================================================
 BALATRO JOKER POOL 100000 SAMPLES
 ==================================================================================
 Active Mods Detected    : Balatro (v1.0.1o-FULL), Balatro Easy Mode (v1.0.2-beta), Debug (v1.0.0-beta), Lovely (v0.9.0), Steamodded (v1.0.0~BETA-1814a)
+Active Deck             : Plasma Deck
+Active Difficulty/Stake : White Stake
 Jokers Appeared         : 144 / 150 items (Coverage: 96.00%)
 Target Ideal Per Card   : 0.694% (~694.4 hits)
 Healthy Hits Threshold  : 486 - 903 hits
@@ -14,157 +13,163 @@ Pool Health Score       : 100.00% (144/144 in optimal range)
 Pool Integrity Status   : FLAT / HEALTHY (PASS)
 ==================================================================================
 
-Riff-raff                        | [Common  ] | Hits:   753 | Freq:  0.753%
-Banner                           | [Common  ] | Hits:   747 | Freq:  0.747%
-Merry Andy                       | [Common  ] | Hits:   742 | Freq:  0.742%
-Joker Stencil                    | [Common  ] | Hits:   739 | Freq:  0.739%
-Perkeo                           | [Common  ] | Hits:   737 | Freq:  0.737%
-The Trio                         | [Common  ] | Hits:   737 | Freq:  0.737%
-Raised Fist                      | [Common  ] | Hits:   736 | Freq:  0.736%
-Green Joker                      | [Common  ] | Hits:   736 | Freq:  0.736%
-Baron                            | [Common  ] | Hits:   736 | Freq:  0.736%
-Gift Card                        | [Common  ] | Hits:   735 | Freq:  0.735%
-Drunkard                         | [Common  ] | Hits:   733 | Freq:  0.733%
-Ice Cream                        | [Common  ] | Hits:   732 | Freq:  0.732%
-Mad Joker                        | [Common  ] | Hits:   731 | Freq:  0.731%
-Loyalty Card                     | [Common  ] | Hits:   730 | Freq:  0.730%
-Cloud 9                          | [Common  ] | Hits:   728 | Freq:  0.728%
-Smiley Face                      | [Common  ] | Hits:   727 | Freq:  0.727%
-Superposition                    | [Common  ] | Hits:   727 | Freq:  0.727%
-Throwback                        | [Common  ] | Hits:   723 | Freq:  0.723%
-Erosion                          | [Common  ] | Hits:   723 | Freq:  0.723%
-Odd Todd                         | [Common  ] | Hits:   723 | Freq:  0.723%
-Golden Joker                     | [Common  ] | Hits:   723 | Freq:  0.723%
-Mystic Summit                    | [Common  ] | Hits:   723 | Freq:  0.723%
-Seance                           | [Common  ] | Hits:   721 | Freq:  0.721%
-The Order                        | [Common  ] | Hits:   720 | Freq:  0.720%
-Yorick                           | [Common  ] | Hits:   719 | Freq:  0.719%
-Burglar                          | [Common  ] | Hits:   717 | Freq:  0.717%
-Stuntman                         | [Common  ] | Hits:   716 | Freq:  0.716%
-Shortcut                         | [Common  ] | Hits:   715 | Freq:  0.715%
-Arrowhead                        | [Common  ] | Hits:   715 | Freq:  0.715%
-Fortune Teller                   | [Common  ] | Hits:   714 | Freq:  0.714%
-Ancient Joker                    | [Common  ] | Hits:   714 | Freq:  0.714%
-Matador                          | [Common  ] | Hits:   713 | Freq:  0.713%
-Constellation                    | [Common  ] | Hits:   713 | Freq:  0.713%
-Blackboard                       | [Common  ] | Hits:   712 | Freq:  0.712%
-Scholar                          | [Common  ] | Hits:   712 | Freq:  0.712%
-Invisible Joker                  | [Common  ] | Hits:   712 | Freq:  0.712%
-Card Sharp                       | [Common  ] | Hits:   711 | Freq:  0.711%
-Photograph                       | [Common  ] | Hits:   711 | Freq:  0.711%
-Four Fingers                     | [Common  ] | Hits:   711 | Freq:  0.711%
+Hologram                         | [Uncommon] | Hits:   778 | Freq:  0.778%
+Fortune Teller                   | [Common  ] | Hits:   769 | Freq:  0.769%
+Cloud 9                          | [Uncommon] | Hits:   764 | Freq:  0.764%
+Mr. Bones                        | [Uncommon] | Hits:   764 | Freq:  0.764%
+Oops! All 6s                     | [Uncommon] | Hits:   763 | Freq:  0.763%
+Rocket                           | [Uncommon] | Hits:   758 | Freq:  0.758%
+Four Fingers                     | [Uncommon] | Hits:   754 | Freq:  0.754%
+Ceremonial Dagger                | [Uncommon] | Hits:   753 | Freq:  0.753%
+Flower Pot                       | [Uncommon] | Hits:   749 | Freq:  0.749%
+Hallucination                    | [Common  ] | Hits:   748 | Freq:  0.748%
+Throwback                        | [Uncommon] | Hits:   745 | Freq:  0.745%
+Midas Mask                       | [Uncommon] | Hits:   744 | Freq:  0.744%
+Bull                             | [Uncommon] | Hits:   744 | Freq:  0.744%
+Splash                           | [Common  ] | Hits:   741 | Freq:  0.741%
+Ramen                            | [Uncommon] | Hits:   739 | Freq:  0.739%
+Cartomancer                      | [Uncommon] | Hits:   738 | Freq:  0.738%
+Certificate                      | [Uncommon] | Hits:   738 | Freq:  0.738%
+Trading Card                     | [Uncommon] | Hits:   737 | Freq:  0.737%
+Shortcut                         | [Uncommon] | Hits:   736 | Freq:  0.736%
+Loyalty Card                     | [Uncommon] | Hits:   735 | Freq:  0.735%
+Blackboard                       | [Uncommon] | Hits:   734 | Freq:  0.734%
+Luchador                         | [Uncommon] | Hits:   733 | Freq:  0.733%
+Abstract Joker                   | [Common  ] | Hits:   728 | Freq:  0.728%
+Seance                           | [Uncommon] | Hits:   727 | Freq:  0.727%
+Burglar                          | [Uncommon] | Hits:   726 | Freq:  0.726%
+Card Sharp                       | [Uncommon] | Hits:   725 | Freq:  0.725%
+Pareidolia                       | [Uncommon] | Hits:   723 | Freq:  0.723%
+Satellite                        | [Uncommon] | Hits:   721 | Freq:  0.721%
+Merry Andy                       | [Uncommon] | Hits:   721 | Freq:  0.721%
+The Idol                         | [Uncommon] | Hits:   720 | Freq:  0.720%
+Troubadour                       | [Uncommon] | Hits:   718 | Freq:  0.718%
+Madness                          | [Uncommon] | Hits:   718 | Freq:  0.718%
+Erosion                          | [Uncommon] | Hits:   718 | Freq:  0.718%
+Driver's License                 | [Rare    ] | Hits:   716 | Freq:  0.716%
+Hack                             | [Uncommon] | Hits:   715 | Freq:  0.715%
+Smeared Joker                    | [Uncommon] | Hits:   715 | Freq:  0.715%
+Ice Cream                        | [Common  ] | Hits:   715 | Freq:  0.715%
+Ride the Bus                     | [Common  ] | Hits:   714 | Freq:  0.714%
+Golden Joker                     | [Common  ] | Hits:   714 | Freq:  0.714%
+Caino                            | [Legendary] | Hits:   713 | Freq:  0.713%
+Rough Gem                        | [Uncommon] | Hits:   712 | Freq:  0.712%
+Droll Joker                      | [Common  ] | Hits:   712 | Freq:  0.712%
 Joker                            | [Common  ] | Hits:   711 | Freq:  0.711%
-Castle                           | [Common  ] | Hits:   711 | Freq:  0.711%
-Swashbuckler                     | [Common  ] | Hits:   710 | Freq:  0.710%
-Crazy Joker                      | [Common  ] | Hits:   710 | Freq:  0.710%
-Madness                          | [Common  ] | Hits:   709 | Freq:  0.709%
-Walkie Talkie                    | [Common  ] | Hits:   709 | Freq:  0.709%
-Caino                            | [Common  ] | Hits:   709 | Freq:  0.709%
-Mail-In Rebate                   | [Common  ] | Hits:   708 | Freq:  0.708%
-Greedy Joker                     | [Common  ] | Hits:   707 | Freq:  0.707%
-Jolly Joker                      | [Common  ] | Hits:   707 | Freq:  0.707%
-Driver's License                 | [Common  ] | Hits:   706 | Freq:  0.706%
-Cartomancer                      | [Common  ] | Hits:   706 | Freq:  0.706%
-Smeared Joker                    | [Common  ] | Hits:   706 | Freq:  0.706%
-Marble Joker                     | [Common  ] | Hits:   705 | Freq:  0.705%
-Spare Trousers                   | [Common  ] | Hits:   705 | Freq:  0.705%
-Brainstorm                       | [Common  ] | Hits:   705 | Freq:  0.705%
-Scary Face                       | [Common  ] | Hits:   705 | Freq:  0.705%
-Hit the Road                     | [Common  ] | Hits:   704 | Freq:  0.704%
-Square Joker                     | [Common  ] | Hits:   704 | Freq:  0.704%
-Baseball Card                    | [Common  ] | Hits:   703 | Freq:  0.703%
-Business Card                    | [Common  ] | Hits:   703 | Freq:  0.703%
-Burnt Joker                      | [Common  ] | Hits:   702 | Freq:  0.702%
-Blueprint                        | [Common  ] | Hits:   702 | Freq:  0.702%
-Seeing Double                    | [Common  ] | Hits:   700 | Freq:  0.700%
-The Idol                         | [Common  ] | Hits:   700 | Freq:  0.700%
-Astronomer                       | [Common  ] | Hits:   699 | Freq:  0.699%
-Vampire                          | [Common  ] | Hits:   698 | Freq:  0.698%
-Devious Joker                    | [Common  ] | Hits:   696 | Freq:  0.696%
-Flash Card                       | [Common  ] | Hits:   696 | Freq:  0.696%
-Gluttonous Joker                 | [Common  ] | Hits:   696 | Freq:  0.696%
-The Family                       | [Common  ] | Hits:   695 | Freq:  0.695%
-Droll Joker                      | [Common  ] | Hits:   695 | Freq:  0.695%
-Clever Joker                     | [Common  ] | Hits:   694 | Freq:  0.694%
-Seltzer                          | [Common  ] | Hits:   694 | Freq:  0.694%
-Trading Card                     | [Common  ] | Hits:   694 | Freq:  0.694%
-Blue Joker                       | [Common  ] | Hits:   693 | Freq:  0.693%
-Campfire                         | [Common  ] | Hits:   692 | Freq:  0.692%
-Bull                             | [Common  ] | Hits:   692 | Freq:  0.692%
-Hack                             | [Common  ] | Hits:   692 | Freq:  0.692%
-Credit Card                      | [Common  ] | Hits:   692 | Freq:  0.692%
-Rough Gem                        | [Common  ] | Hits:   691 | Freq:  0.691%
-Triboulet                        | [Common  ] | Hits:   691 | Freq:  0.691%
-Acrobat                          | [Common  ] | Hits:   690 | Freq:  0.690%
-Dusk                             | [Common  ] | Hits:   690 | Freq:  0.690%
-Hallucination                    | [Common  ] | Hits:   689 | Freq:  0.689%
-Bloodstone                       | [Common  ] | Hits:   689 | Freq:  0.689%
-Wily Joker                       | [Common  ] | Hits:   688 | Freq:  0.688%
-Flower Pot                       | [Common  ] | Hits:   688 | Freq:  0.688%
-Chicot                           | [Common  ] | Hits:   687 | Freq:  0.687%
-Egg                              | [Common  ] | Hits:   687 | Freq:  0.687%
-Supernova                        | [Common  ] | Hits:   687 | Freq:  0.687%
-Ceremonial Dagger                | [Common  ] | Hits:   686 | Freq:  0.686%
-Luchador                         | [Common  ] | Hits:   686 | Freq:  0.686%
-Reserved Parking                 | [Common  ] | Hits:   685 | Freq:  0.685%
-Mr. Bones                        | [Common  ] | Hits:   685 | Freq:  0.685%
-Misprint                         | [Common  ] | Hits:   685 | Freq:  0.685%
-Fibonacci                        | [Common  ] | Hits:   685 | Freq:  0.685%
-Oops! All 6s                     | [Common  ] | Hits:   685 | Freq:  0.685%
-Vagabond                         | [Common  ] | Hits:   685 | Freq:  0.685%
-Wrathful Joker                   | [Common  ] | Hits:   683 | Freq:  0.683%
-Zany Joker                       | [Common  ] | Hits:   683 | Freq:  0.683%
-Wee Joker                        | [Common  ] | Hits:   683 | Freq:  0.683%
-Chaos the Clown                  | [Common  ] | Hits:   683 | Freq:  0.683%
-Obelisk                          | [Common  ] | Hits:   682 | Freq:  0.682%
-Sock and Buskin                  | [Common  ] | Hits:   681 | Freq:  0.681%
-Splash                           | [Common  ] | Hits:   680 | Freq:  0.680%
-Mime                             | [Common  ] | Hits:   680 | Freq:  0.680%
-Rocket                           | [Common  ] | Hits:   679 | Freq:  0.679%
-Hanging Chad                     | [Common  ] | Hits:   679 | Freq:  0.679%
-DNA                              | [Common  ] | Hits:   679 | Freq:  0.679%
-Certificate                      | [Common  ] | Hits:   678 | Freq:  0.678%
-Hologram                         | [Common  ] | Hits:   678 | Freq:  0.678%
-Popcorn                          | [Common  ] | Hits:   678 | Freq:  0.678%
-The Tribe                        | [Common  ] | Hits:   677 | Freq:  0.677%
-To the Moon                      | [Common  ] | Hits:   677 | Freq:  0.677%
-Faceless Joker                   | [Common  ] | Hits:   675 | Freq:  0.675%
-Onyx Agate                       | [Common  ] | Hits:   671 | Freq:  0.671%
-Turtle Bean                      | [Common  ] | Hits:   671 | Freq:  0.671%
-Crafty Joker                     | [Common  ] | Hits:   669 | Freq:  0.669%
-Abstract Joker                   | [Common  ] | Hits:   668 | Freq:  0.668%
-Gros Michel                      | [Common  ] | Hits:   668 | Freq:  0.668%
-Satellite                        | [Common  ] | Hits:   667 | Freq:  0.667%
-Ramen                            | [Common  ] | Hits:   667 | Freq:  0.667%
-Sly Joker                        | [Common  ] | Hits:   666 | Freq:  0.666%
-Sixth Sense                      | [Common  ] | Hits:   666 | Freq:  0.666%
-Red Card                         | [Common  ] | Hits:   663 | Freq:  0.663%
-Showman                          | [Common  ] | Hits:   661 | Freq:  0.661%
-Runner                           | [Common  ] | Hits:   661 | Freq:  0.661%
-Lusty Joker                      | [Common  ] | Hits:   659 | Freq:  0.659%
-Pareidolia                       | [Common  ] | Hits:   659 | Freq:  0.659%
-Diet Cola                        | [Common  ] | Hits:   658 | Freq:  0.658%
-Troubadour                       | [Common  ] | Hits:   658 | Freq:  0.658%
-Half Joker                       | [Common  ] | Hits:   657 | Freq:  0.657%
-Ride the Bus                     | [Common  ] | Hits:   656 | Freq:  0.656%
-The Duo                          | [Common  ] | Hits:   655 | Freq:  0.655%
-Delayed Gratification            | [Common  ] | Hits:   655 | Freq:  0.655%
-8 Ball                           | [Common  ] | Hits:   654 | Freq:  0.654%
-Midas Mask                       | [Common  ] | Hits:   653 | Freq:  0.653%
-Space Joker                      | [Common  ] | Hits:   647 | Freq:  0.647%
-To Do List                       | [Common  ] | Hits:   646 | Freq:  0.646%
-Hiker                            | [Common  ] | Hits:   645 | Freq:  0.645%
-Juggler                          | [Common  ] | Hits:   645 | Freq:  0.645%
-Bootstraps                       | [Common  ] | Hits:   643 | Freq:  0.643%
-Even Steven                      | [Common  ] | Hits:   636 | Freq:  0.636%
-Shoot the Moon                   | [Common  ] | Hits:   630 | Freq:  0.630%
+Showman                          | [Uncommon] | Hits:   710 | Freq:  0.710%
+To the Moon                      | [Uncommon] | Hits:   709 | Freq:  0.709%
+Constellation                    | [Uncommon] | Hits:   708 | Freq:  0.708%
+Banner                           | [Common  ] | Hits:   708 | Freq:  0.708%
+Bootstraps                       | [Uncommon] | Hits:   707 | Freq:  0.707%
+Castle                           | [Uncommon] | Hits:   707 | Freq:  0.707%
+To Do List                       | [Common  ] | Hits:   706 | Freq:  0.706%
+Flash Card                       | [Uncommon] | Hits:   706 | Freq:  0.706%
+Hiker                            | [Uncommon] | Hits:   706 | Freq:  0.706%
+Astronomer                       | [Uncommon] | Hits:   705 | Freq:  0.705%
+Gros Michel                      | [Common  ] | Hits:   705 | Freq:  0.705%
+Bloodstone                       | [Uncommon] | Hits:   704 | Freq:  0.704%
+Joker Stencil                    | [Uncommon] | Hits:   702 | Freq:  0.702%
+Mime                             | [Uncommon] | Hits:   702 | Freq:  0.702%
+Riff-raff                        | [Common  ] | Hits:   702 | Freq:  0.702%
+Lusty Joker                      | [Common  ] | Hits:   701 | Freq:  0.701%
+Zany Joker                       | [Common  ] | Hits:   700 | Freq:  0.700%
+Onyx Agate                       | [Uncommon] | Hits:   700 | Freq:  0.700%
+Hanging Chad                     | [Common  ] | Hits:   700 | Freq:  0.700%
+Dusk                             | [Uncommon] | Hits:   700 | Freq:  0.700%
+Scary Face                       | [Common  ] | Hits:   699 | Freq:  0.699%
+Wily Joker                       | [Common  ] | Hits:   698 | Freq:  0.698%
+Seeing Double                    | [Uncommon] | Hits:   698 | Freq:  0.698%
+Greedy Joker                     | [Common  ] | Hits:   697 | Freq:  0.697%
+Square Joker                     | [Common  ] | Hits:   697 | Freq:  0.697%
+Mail-In Rebate                   | [Common  ] | Hits:   696 | Freq:  0.696%
+Juggler                          | [Common  ] | Hits:   695 | Freq:  0.695%
+Shoot the Moon                   | [Common  ] | Hits:   695 | Freq:  0.695%
+Red Card                         | [Common  ] | Hits:   695 | Freq:  0.695%
+Crazy Joker                      | [Common  ] | Hits:   695 | Freq:  0.695%
+Ancient Joker                    | [Rare    ] | Hits:   694 | Freq:  0.694%
+Credit Card                      | [Common  ] | Hits:   694 | Freq:  0.694%
+Gift Card                        | [Uncommon] | Hits:   693 | Freq:  0.693%
+Sly Joker                        | [Common  ] | Hits:   691 | Freq:  0.691%
+Seltzer                          | [Uncommon] | Hits:   691 | Freq:  0.691%
+Runner                           | [Common  ] | Hits:   690 | Freq:  0.690%
+Raised Fist                      | [Common  ] | Hits:   690 | Freq:  0.690%
+Chaos the Clown                  | [Common  ] | Hits:   690 | Freq:  0.690%
+8 Ball                           | [Common  ] | Hits:   689 | Freq:  0.689%
+Invisible Joker                  | [Rare    ] | Hits:   689 | Freq:  0.689%
+Brainstorm                       | [Rare    ] | Hits:   689 | Freq:  0.689%
+Swashbuckler                     | [Common  ] | Hits:   689 | Freq:  0.689%
+Business Card                    | [Common  ] | Hits:   688 | Freq:  0.688%
+Smiley Face                      | [Common  ] | Hits:   687 | Freq:  0.687%
+Diet Cola                        | [Uncommon] | Hits:   686 | Freq:  0.686%
+Half Joker                       | [Common  ] | Hits:   685 | Freq:  0.685%
+The Tribe                        | [Rare    ] | Hits:   685 | Freq:  0.685%
+Vampire                          | [Uncommon] | Hits:   684 | Freq:  0.684%
+Photograph                       | [Common  ] | Hits:   683 | Freq:  0.683%
+Mad Joker                        | [Common  ] | Hits:   683 | Freq:  0.683%
+Reserved Parking                 | [Common  ] | Hits:   682 | Freq:  0.682%
+Fibonacci                        | [Uncommon] | Hits:   680 | Freq:  0.680%
+Superposition                    | [Common  ] | Hits:   679 | Freq:  0.679%
+Egg                              | [Common  ] | Hits:   679 | Freq:  0.679%
+Faceless Joker                   | [Common  ] | Hits:   679 | Freq:  0.679%
+Blue Joker                       | [Common  ] | Hits:   678 | Freq:  0.678%
+Space Joker                      | [Uncommon] | Hits:   675 | Freq:  0.675%
+Chicot                           | [Legendary] | Hits:   675 | Freq:  0.675%
+Sixth Sense                      | [Uncommon] | Hits:   675 | Freq:  0.675%
+Arrowhead                        | [Uncommon] | Hits:   675 | Freq:  0.675%
+Acrobat                          | [Uncommon] | Hits:   675 | Freq:  0.675%
+Crafty Joker                     | [Common  ] | Hits:   674 | Freq:  0.674%
+Baseball Card                    | [Rare    ] | Hits:   673 | Freq:  0.673%
+Yorick                           | [Legendary] | Hits:   672 | Freq:  0.672%
+Turtle Bean                      | [Uncommon] | Hits:   672 | Freq:  0.672%
+Sock and Buskin                  | [Uncommon] | Hits:   671 | Freq:  0.671%
+Perkeo                           | [Legendary] | Hits:   670 | Freq:  0.670%
+Spare Trousers                   | [Uncommon] | Hits:   669 | Freq:  0.669%
+Drunkard                         | [Common  ] | Hits:   668 | Freq:  0.668%
+Scholar                          | [Common  ] | Hits:   668 | Freq:  0.668%
+The Duo                          | [Rare    ] | Hits:   668 | Freq:  0.668%
+Clever Joker                     | [Common  ] | Hits:   668 | Freq:  0.668%
+Stuntman                         | [Rare    ] | Hits:   666 | Freq:  0.666%
+Campfire                         | [Rare    ] | Hits:   665 | Freq:  0.665%
+Wrathful Joker                   | [Common  ] | Hits:   665 | Freq:  0.665%
+Vagabond                         | [Rare    ] | Hits:   663 | Freq:  0.663%
+Even Steven                      | [Common  ] | Hits:   662 | Freq:  0.662%
+Odd Todd                         | [Common  ] | Hits:   661 | Freq:  0.661%
+Mystic Summit                    | [Common  ] | Hits:   660 | Freq:  0.660%
+Gluttonous Joker                 | [Common  ] | Hits:   658 | Freq:  0.658%
+Baron                            | [Rare    ] | Hits:   658 | Freq:  0.658%
+Popcorn                          | [Common  ] | Hits:   658 | Freq:  0.658%
+Marble Joker                     | [Uncommon] | Hits:   656 | Freq:  0.656%
+The Trio                         | [Rare    ] | Hits:   656 | Freq:  0.656%
+Delayed Gratification            | [Common  ] | Hits:   656 | Freq:  0.656%
+The Order                        | [Rare    ] | Hits:   655 | Freq:  0.655%
+Matador                          | [Uncommon] | Hits:   655 | Freq:  0.655%
+Blueprint                        | [Rare    ] | Hits:   655 | Freq:  0.655%
+The Family                       | [Rare    ] | Hits:   653 | Freq:  0.653%
+Wee Joker                        | [Rare    ] | Hits:   648 | Freq:  0.648%
+Triboulet                        | [Legendary] | Hits:   647 | Freq:  0.647%
+Supernova                        | [Common  ] | Hits:   647 | Freq:  0.647%
+Green Joker                      | [Common  ] | Hits:   646 | Freq:  0.646%
+DNA                              | [Rare    ] | Hits:   644 | Freq:  0.644%
+Jolly Joker                      | [Common  ] | Hits:   636 | Freq:  0.636%
+Devious Joker                    | [Common  ] | Hits:   631 | Freq:  0.631%
+Hit the Road                     | [Rare    ] | Hits:   631 | Freq:  0.631%
+Walkie Talkie                    | [Common  ] | Hits:   621 | Freq:  0.621%
+Misprint                         | [Common  ] | Hits:   620 | Freq:  0.620%
+Burnt Joker                      | [Rare    ] | Hits:   618 | Freq:  0.618%
+Obelisk                          | [Rare    ] | Hits:   615 | Freq:  0.615%
 
 
-Mod Disabled
+
+
+
+
+Mod disabled 
 ==================================================================================
 BALATRO JOKER POOL 100000 SAMPLES
 ==================================================================================
 Active Mods Detected    : Balatro (v1.0.1o-FULL), Debug (v1.0.0-beta), Lovely (v0.9.0), Steamodded (v1.0.0~BETA-1814a)
+Active Deck             : Plasma Deck
+Active Difficulty/Stake : White Stake
 Jokers Appeared         : 138 / 150 items (Coverage: 92.00%)
 Target Ideal Per Card   : 0.725% (~724.6 hits)
 Healthy Hits Threshold  : 507 - 943 hits
@@ -173,141 +178,102 @@ Pool Health Score       : 0.00% (0/138 in optimal range)
 Pool Integrity Status   : BIAS DETECTED (CHECK POOL)
 ==================================================================================
 
-8 Ball                           | [Common  ] | Hits:  1278 | Freq:  1.278%
-Drunkard                         | [Common  ] | Hits:  1261 | Freq:  1.261%
-Banner                           | [Common  ] | Hits:  1257 | Freq:  1.257%
-Gros Michel                      | [Common  ] | Hits:  1252 | Freq:  1.252%
-Mad Joker                        | [Common  ] | Hits:  1243 | Freq:  1.243%
-Riff-raff                        | [Common  ] | Hits:  1242 | Freq:  1.242%
-Greedy Joker                     | [Common  ] | Hits:  1235 | Freq:  1.235%
-Ice Cream                        | [Common  ] | Hits:  1235 | Freq:  1.235%
-Even Steven                      | [Common  ] | Hits:  1234 | Freq:  1.234%
-Fortune Teller                   | [Common  ] | Hits:  1230 | Freq:  1.230%
-Popcorn                          | [Common  ] | Hits:  1227 | Freq:  1.227%
-Photograph                       | [Common  ] | Hits:  1218 | Freq:  1.218%
-Joker                            | [Common  ] | Hits:  1213 | Freq:  1.213%
-Delayed Gratification            | [Common  ] | Hits:  1212 | Freq:  1.212%
-Crafty Joker                     | [Common  ] | Hits:  1210 | Freq:  1.210%
-Chaos the Clown                  | [Common  ] | Hits:  1206 | Freq:  1.206%
-Sly Joker                        | [Common  ] | Hits:  1205 | Freq:  1.205%
-Swashbuckler                     | [Common  ] | Hits:  1205 | Freq:  1.205%
-Shoot the Moon                   | [Common  ] | Hits:  1204 | Freq:  1.204%
-Hallucination                    | [Common  ] | Hits:  1203 | Freq:  1.203%
-Devious Joker                    | [Common  ] | Hits:  1199 | Freq:  1.199%
-Faceless Joker                   | [Common  ] | Hits:  1199 | Freq:  1.199%
-Scary Face                       | [Common  ] | Hits:  1199 | Freq:  1.199%
-Supernova                        | [Common  ] | Hits:  1195 | Freq:  1.195%
-Zany Joker                       | [Common  ] | Hits:  1195 | Freq:  1.195%
-Mystic Summit                    | [Common  ] | Hits:  1192 | Freq:  1.192%
-Lusty Joker                      | [Common  ] | Hits:  1190 | Freq:  1.190%
-Misprint                         | [Common  ] | Hits:  1187 | Freq:  1.187%
-Mail-In Rebate                   | [Common  ] | Hits:  1185 | Freq:  1.185%
-Egg                              | [Common  ] | Hits:  1185 | Freq:  1.185%
-Droll Joker                      | [Common  ] | Hits:  1184 | Freq:  1.184%
-Superposition                    | [Common  ] | Hits:  1184 | Freq:  1.184%
-Half Joker                       | [Common  ] | Hits:  1183 | Freq:  1.183%
-Scholar                          | [Common  ] | Hits:  1182 | Freq:  1.182%
-Crazy Joker                      | [Common  ] | Hits:  1181 | Freq:  1.181%
-Smiley Face                      | [Common  ] | Hits:  1180 | Freq:  1.180%
-Odd Todd                         | [Common  ] | Hits:  1175 | Freq:  1.175%
-Red Card                         | [Common  ] | Hits:  1174 | Freq:  1.174%
-Credit Card                      | [Common  ] | Hits:  1168 | Freq:  1.168%
-Gluttonous Joker                 | [Common  ] | Hits:  1167 | Freq:  1.167%
-To Do List                       | [Common  ] | Hits:  1160 | Freq:  1.160%
-Wily Joker                       | [Common  ] | Hits:  1160 | Freq:  1.160%
-Blue Joker                       | [Common  ] | Hits:  1159 | Freq:  1.159%
-Green Joker                      | [Common  ] | Hits:  1156 | Freq:  1.156%
-Ride the Bus                     | [Common  ] | Hits:  1155 | Freq:  1.155%
-Hanging Chad                     | [Common  ] | Hits:  1154 | Freq:  1.154%
-Raised Fist                      | [Common  ] | Hits:  1153 | Freq:  1.153%
-Business Card                    | [Common  ] | Hits:  1152 | Freq:  1.152%
-Reserved Parking                 | [Common  ] | Hits:  1151 | Freq:  1.151%
-Juggler                          | [Common  ] | Hits:  1149 | Freq:  1.149%
-Abstract Joker                   | [Common  ] | Hits:  1147 | Freq:  1.147%
-Wrathful Joker                   | [Common  ] | Hits:  1138 | Freq:  1.138%
-Runner                           | [Common  ] | Hits:  1138 | Freq:  1.138%
-Clever Joker                     | [Common  ] | Hits:  1138 | Freq:  1.138%
-Splash                           | [Common  ] | Hits:  1135 | Freq:  1.135%
-Golden Joker                     | [Common  ] | Hits:  1135 | Freq:  1.135%
-Walkie Talkie                    | [Common  ] | Hits:  1130 | Freq:  1.130%
-Square Joker                     | [Common  ] | Hits:  1124 | Freq:  1.124%
-Jolly Joker                      | [Common  ] | Hits:  1116 | Freq:  1.116%
-Arrowhead                        | [Uncommon] | Hits:   465 | Freq:  0.465%
-Burglar                          | [Uncommon] | Hits:   462 | Freq:  0.462%
-Space Joker                      | [Uncommon] | Hits:   456 | Freq:  0.456%
-Smeared Joker                    | [Uncommon] | Hits:   448 | Freq:  0.448%
-Merry Andy                       | [Uncommon] | Hits:   447 | Freq:  0.447%
-Mr. Bones                        | [Uncommon] | Hits:   441 | Freq:  0.441%
-Hack                             | [Uncommon] | Hits:   439 | Freq:  0.439%
-Marble Joker                     | [Uncommon] | Hits:   436 | Freq:  0.436%
-Trading Card                     | [Uncommon] | Hits:   436 | Freq:  0.436%
-Bull                             | [Uncommon] | Hits:   436 | Freq:  0.436%
-Hiker                            | [Uncommon] | Hits:   434 | Freq:  0.434%
-Throwback                        | [Uncommon] | Hits:   433 | Freq:  0.433%
-Seance                           | [Uncommon] | Hits:   433 | Freq:  0.433%
-Onyx Agate                       | [Uncommon] | Hits:   432 | Freq:  0.432%
-Blackboard                       | [Uncommon] | Hits:   428 | Freq:  0.428%
-Satellite                        | [Uncommon] | Hits:   427 | Freq:  0.427%
-Acrobat                          | [Uncommon] | Hits:   426 | Freq:  0.426%
-Rough Gem                        | [Uncommon] | Hits:   424 | Freq:  0.424%
-Oops! All 6s                     | [Uncommon] | Hits:   423 | Freq:  0.423%
-The Idol                         | [Uncommon] | Hits:   423 | Freq:  0.423%
-Constellation                    | [Uncommon] | Hits:   422 | Freq:  0.422%
-Madness                          | [Uncommon] | Hits:   420 | Freq:  0.420%
-Luchador                         | [Uncommon] | Hits:   420 | Freq:  0.420%
-Flower Pot                       | [Uncommon] | Hits:   420 | Freq:  0.420%
-Troubadour                       | [Uncommon] | Hits:   419 | Freq:  0.419%
-Bootstraps                       | [Uncommon] | Hits:   419 | Freq:  0.419%
-Matador                          | [Uncommon] | Hits:   418 | Freq:  0.418%
-Castle                           | [Uncommon] | Hits:   418 | Freq:  0.418%
-Vampire                          | [Uncommon] | Hits:   418 | Freq:  0.418%
-Shortcut                         | [Uncommon] | Hits:   417 | Freq:  0.417%
-Turtle Bean                      | [Uncommon] | Hits:   417 | Freq:  0.417%
-Diet Cola                        | [Uncommon] | Hits:   415 | Freq:  0.415%
-Card Sharp                       | [Uncommon] | Hits:   414 | Freq:  0.414%
-Rocket                           | [Uncommon] | Hits:   413 | Freq:  0.413%
-Seeing Double                    | [Uncommon] | Hits:   413 | Freq:  0.413%
-Four Fingers                     | [Uncommon] | Hits:   412 | Freq:  0.412%
-To the Moon                      | [Uncommon] | Hits:   411 | Freq:  0.411%
-Certificate                      | [Uncommon] | Hits:   410 | Freq:  0.410%
-Dusk                             | [Uncommon] | Hits:   410 | Freq:  0.410%
-Ceremonial Dagger                | [Uncommon] | Hits:   410 | Freq:  0.410%
-Pareidolia                       | [Uncommon] | Hits:   408 | Freq:  0.408%
-Spare Trousers                   | [Uncommon] | Hits:   407 | Freq:  0.407%
-Erosion                          | [Uncommon] | Hits:   407 | Freq:  0.407%
-Hologram                         | [Uncommon] | Hits:   406 | Freq:  0.406%
-Joker Stencil                    | [Uncommon] | Hits:   405 | Freq:  0.405%
-Gift Card                        | [Uncommon] | Hits:   404 | Freq:  0.404%
-Fibonacci                        | [Uncommon] | Hits:   403 | Freq:  0.403%
-Astronomer                       | [Uncommon] | Hits:   399 | Freq:  0.399%
-Mime                             | [Uncommon] | Hits:   399 | Freq:  0.399%
-Ramen                            | [Uncommon] | Hits:   399 | Freq:  0.399%
-Sock and Buskin                  | [Uncommon] | Hits:   397 | Freq:  0.397%
-Bloodstone                       | [Uncommon] | Hits:   392 | Freq:  0.392%
-Midas Mask                       | [Uncommon] | Hits:   392 | Freq:  0.392%
-Cartomancer                      | [Uncommon] | Hits:   390 | Freq:  0.390%
-Showman                          | [Uncommon] | Hits:   390 | Freq:  0.390%
-Sixth Sense                      | [Uncommon] | Hits:   388 | Freq:  0.388%
-Flash Card                       | [Uncommon] | Hits:   383 | Freq:  0.383%
-Cloud 9                          | [Uncommon] | Hits:   382 | Freq:  0.382%
-Loyalty Card                     | [Uncommon] | Hits:   378 | Freq:  0.378%
-Seltzer                          | [Uncommon] | Hits:   369 | Freq:  0.369%
-The Trio                         | [Rare    ] | Hits:   290 | Freq:  0.290%
-Invisible Joker                  | [Rare    ] | Hits:   289 | Freq:  0.289%
-The Duo                          | [Rare    ] | Hits:   288 | Freq:  0.288%
-Wee Joker                        | [Rare    ] | Hits:   272 | Freq:  0.272%
-The Tribe                        | [Rare    ] | Hits:   266 | Freq:  0.266%
-The Order                        | [Rare    ] | Hits:   266 | Freq:  0.266%
-Baseball Card                    | [Rare    ] | Hits:   265 | Freq:  0.265%
-DNA                              | [Rare    ] | Hits:   265 | Freq:  0.265%
-Obelisk                          | [Rare    ] | Hits:   264 | Freq:  0.264%
-The Family                       | [Rare    ] | Hits:   264 | Freq:  0.264%
-Blueprint                        | [Rare    ] | Hits:   264 | Freq:  0.264%
-Stuntman                         | [Rare    ] | Hits:   263 | Freq:  0.263%
-Hit the Road                     | [Rare    ] | Hits:   262 | Freq:  0.262%
-Driver's License                 | [Rare    ] | Hits:   258 | Freq:  0.258%
-Brainstorm                       | [Rare    ] | Hits:   257 | Freq:  0.257%
-Campfire                         | [Rare    ] | Hits:   248 | Freq:  0.248%
-Burnt Joker                      | [Rare    ] | Hits:   246 | Freq:  0.246%
-Vagabond                         | [Rare    ] | Hits:   245 | Freq:  0.245%
-Baron                            | [Rare    ] | Hits:   241 | Freq:  0.241%
+Even Steven                      | [Common  ] | Hits:  1273 | Freq:  1.273%
+Abstract Joker                   | [Common  ] | Hits:  1248 | Freq:  1.248%
+Shoot the Moon                   | [Common  ] | Hits:  1238 | Freq:  1.238%
+Crafty Joker                     | [Common  ] | Hits:  1228 | Freq:  1.228%
+Sly Joker                        | [Common  ] | Hits:  1225 | Freq:  1.225%
+Raised Fist                      | [Common  ] | Hits:  1225 | Freq:  1.225%
+Scholar                          | [Common  ] | Hits:  1223 | Freq:  1.223%
+Juggler                          | [Common  ] | Hits:  1222 | Freq:  1.222%
+Clever Joker                     | [Common  ] | Hits:  1221 | Freq:  1.221%
+Droll Joker                      | [Common  ] | Hits:  1214 | Freq:  1.214%
+Half Joker                       | [Common  ] | Hits:  1213 | Freq:  1.213%
+Mad Joker                        | [Common  ] | Hits:  1212 | Freq:  1.212%
+Zany Joker                       | [Common  ] | Hits:  1212 | Freq:  1.212%
+Ice Cream                        | [Common  ] | Hits:  1211 | Freq:  1.211%
+To Do List                       | [Common  ] | Hits:  1210 | Freq:  1.210%
+Joker                            | [Common  ] | Hits:  1209 | Freq:  1.209%
+Blue Joker                       | [Common  ] | Hits:  1209 | Freq:  1.209%
+Credit Card                      | [Common  ] | Hits:  1207 | Freq:  1.207%
+Splash                           | [Common  ] | Hits:  1205 | Freq:  1.205%
+Ride the Bus                     | [Common  ] | Hits:  1203 | Freq:  1.203%
+Drunkard                         | [Common  ] | Hits:  1202 | Freq:  1.202%
+Scary Face                       | [Common  ] | Hits:  1200 | Freq:  1.200%
+Odd Todd                         | [Common  ] | Hits:  1199 | Freq:  1.199%
+Banner                           | [Common  ] | Hits:  1197 | Freq:  1.197%
+Runner                           | [Common  ] | Hits:  1196 | Freq:  1.196%
+8 Ball                           | [Common  ] | Hits:  1195 | Freq:  1.195%
+Mystic Summit                    | [Common  ] | Hits:  1194 | Freq:  1.194%
+Walkie Talkie                    | [Common  ] | Hits:  1194 | Freq:  1.194%
+Reserved Parking                 | [Common  ] | Hits:  1194 | Freq:  1.194%
+Jolly Joker                      | [Common  ] | Hits:  1191 | Freq:  1.191%
+Misprint                         | [Common  ] | Hits:  1189 | Freq:  1.189%
+Delayed Gratification            | [Common  ] | Hits:  1188 | Freq:  1.188%
+Popcorn                          | [Common  ] | Hits:  1186 | Freq:  1.186%
+Smiley Face                      | [Common  ] | Hits:  1183 | Freq:  1.183%
+Photograph                       | [Common  ] | Hits:  1181 | Freq:  1.181%
+Wrathful Joker                   | [Common  ] | Hits:  1180 | Freq:  1.180%
+Crazy Joker                      | [Common  ] | Hits:  1180 | Freq:  1.180%
+Wily Joker                       | [Common  ] | Hits:  1178 | Freq:  1.178%
+Gluttonous Joker                 | [Common  ] | Hits:  1177 | Freq:  1.177%
+Mail-In Rebate                   | [Common  ] | Hits:  1177 | Freq:  1.177%
+Egg                              | [Common  ] | Hits:  1174 | Freq:  1.174%
+Superposition                    | [Common  ] | Hits:  1173 | Freq:  1.173%
+Lusty Joker                      | [Common  ] | Hits:  1173 | Freq:  1.173%
+Hanging Chad                     | [Common  ] | Hits:  1170 | Freq:  1.170%
+Green Joker                      | [Common  ] | Hits:  1170 | Freq:  1.170%
+Business Card                    | [Common  ] | Hits:  1166 | Freq:  1.166%
+Greedy Joker                     | [Common  ] | Hits:  1165 | Freq:  1.165%
+Golden Joker                     | [Common  ] | Hits:  1165 | Freq:  1.165%
+Chaos the Clown                  | [Common  ] | Hits:  1164 | Freq:  1.164%
+Hallucination                    | [Common  ] | Hits:  1162 | Freq:  1.162%
+Riff-raff                        | [Common  ] | Hits:  1161 | Freq:  1.161%
+Supernova                        | [Common  ] | Hits:  1156 | Freq:  1.156%
+Fortune Teller                   | [Common  ] | Hits:  1153 | Freq:  1.153%
+Red Card                         | [Common  ] | Hits:  1151 | Freq:  1.151%
+Devious Joker                    | [Common  ] | Hits:  1151 | Freq:  1.151%
+Swashbuckler                     | [Common  ] | Hits:  1146 | Freq:  1.146%
+Faceless Joker                   | [Common  ] | Hits:  1143 | Freq:  1.143%
+Gros Michel                      | [Common  ] | Hits:  1133 | Freq:  1.133%
+Square Joker                     | [Common  ] | Hits:  1118 | Freq:  1.118%
+Hack                             | [Uncommon] | Hits:   460 | Freq:  0.460%
+Mr. Bones                        | [Uncommon] | Hits:   460 | Freq:  0.460%
+Rough Gem                        | [Uncommon] | Hits:   455 | Freq:  0.455%
+The Idol                         | [Uncommon] | Hits:   451 | Freq:  0.451%
+Certificate                      | [Uncommon] | Hits:   450 | Freq:  0.450%
+Castle                           | [Uncommon] | Hits:   448 | Freq:  0.448%
+Four Fingers                     | [Uncommon] | Hits:   443 | Freq:  0.443%
+Arrowhead                        | [Uncommon] | Hits:   442 | Freq:  0.442%
+Bootstraps                       | [Uncommon] | Hits:   441 | Freq:  0.441%
+Hiker                            | [Uncommon] | Hits:   440 | Freq:  0.440%
+Loyalty Card                     | [Uncommon] | Hits:   436 | Freq:  0.436%
+Bloodstone                       | [Uncommon] | Hits:   435 | Freq:  0.435%
+Fibonacci                        | [Uncommon] | Hits:   434 | Freq:  0.434%
+Matador                          | [Uncommon] | Hits:   433 | Freq:  0.433%
+Throwback                        | [Uncommon] | Hits:   431 | Freq:  0.431%
+Spare Trousers                   | [Uncommon] | Hits:   429 | Freq:  0.429%
+Sixth Sense                      | [Uncommon] | Hits:   428 | Freq:  0.428%
+Troubadour                       | [Uncommon] | Hits:   426 | Freq:  0.426%
+Trading Card                     | [Uncommon] | Hits:   425 | Freq:  0.425%
+Onyx Agate                       | [Uncommon] | Hits:   425 | Freq:  0.425%
+Turtle Bean                      | [Uncommon] | Hits:   423 | Freq:  0.423%
+Ramen                            | [Uncommon] | Hits:   423 | Freq:  0.423%
+Luchador                         | [Uncommon] | Hits:   418 | Freq:  0.418%
+Pareidolia                       | [Uncommon] | Hits:   418 | Freq:  0.418%
+Burglar                          | [Uncommon] | Hits:   417 | Freq:  0.417%
+Hologram                         | [Uncommon] | Hits:   417 | Freq:  0.417%
+Space Joker                      | [Uncommon] | Hits:   416 | Freq:  0.416%
+Dusk                             | [Uncommon] | Hits:   413 | Freq:  0.413%
+Joker Stencil                    | [Uncommon] | Hits:   413 | Freq:  0.413%
+Constellation                    | [Uncommon] | Hits:   412 | Freq:  0.412%
+Seltzer                          | [Uncommon] | Hits:   411 | Freq:  0.411%
+Cartomancer                      | [Uncommon] | Hits:   411 | Freq:  0.411%
+Seance                           | [Uncommon] | Hits:   409 | Freq:  0.409%
+Flower Pot                       | [Uncommon] | Hits:   407 | Freq:  0.407%
+Rocket                           | [Uncommon] | Hits:   406 | Freq:  0.406%
+Sock and Buskin                  | [Uncommon] | Hits:   406 | Freq:  0.406%
+Astronomer                       | [Uncommon] | Hits:   404 | Freq:  0.404%
+Seeing Double                    | [Uncommon] | Hits:   403 | Freq:  0.403%
+Acrobat                          | [Uncommon] | Hits:   403 | Freq:  0.403%
+Card
