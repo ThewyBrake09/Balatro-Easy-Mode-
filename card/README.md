@@ -7,7 +7,8 @@ local files = {
     "card/joker_pool.lua",
     "card/card_effect.lua", --add this 
     "localization/id.lua",  --this, dont forget ','
-    "localization/en-us.lua"  --and this 
+    "localization/en-us.lua"  --and this
+}
  ```                          
                            
 # What it does
