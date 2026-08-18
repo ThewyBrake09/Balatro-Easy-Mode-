@@ -10,7 +10,7 @@ Gameplay mod for Balatro designed to streamline your gameplay, eliminate tedious
 * **Preserved Rarity Visuals**: Retains original rarity tags (Common, Uncommon, Rare, Legendary) for visual distinction and intuitive player reference, while underlying spawn probabilities remain uniform.
 * **Streamlined Shop Experience**: Removes restrictive tier-weighting to make high-synergy builds and legendary runs more accessible.
 
-> **Proof of Balance**: Check our `stats_proof.txt` folder for empirical data and statistical breakdowns of the updated drop rates. **[Debugger](https://github.com/ThewyBrake09/Joker-Pool-Debug)** is also available if you would like to test and verify the probabilities yourself.
+> **Proof of Balance**: Check our **[stats_proof.txt](https://github.com/ThewyBrake09/Balatro-Easy-Mode-/blob/main/stats_proof.txt)** folder for empirical data and statistical breakdowns of the updated drop rates. **[Debugger](https://github.com/ThewyBrake09/Joker-Pool-Debug)** is also available if you would like to test and verify the probabilities yourself.
 
 ---
 
