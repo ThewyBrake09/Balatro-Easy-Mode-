@@ -1,66 +1,37 @@
---- RarityLock
---- 1) Forces every Joker the game generates to a chosen rarity.
---- 2) Optionally allows duplicate JOKERS (Joker-only Showman) so owned Jokers
----    can reappear in shops/packs and the pool never dries up.
---- Stable mod reference captured at load time.
+--- Main Mod Initialization File
+-- Handles module loading, pool overrides, and config UI creation.
+
 local THIS_MOD = SMODS.current_mod
 
-local path = SMODS.path_asi or (THIS_MOD and THIS_MOD.path) or (THIS_MOD and THIS_MOD.folder and ("Mods/" .. THIS_MOD.folder .. "/")) or ""
-
+--- Initialize Configuration Defaults
 THIS_MOD.config = THIS_MOD.config or {}
-if THIS_MOD.config.enabled == nil then THIS_MOD.config.enabled = true end
-if THIS_MOD.config.rarity == nil then THIS_MOD.config.rarity = 1 end
-if THIS_MOD.config.allow_dupes == nil then THIS_MOD.config.allow_dupes = false end
+THIS_MOD.config.enabled = THIS_MOD.config.enabled == nil or THIS_MOD.config.enabled
+THIS_MOD.config.allow_dupes = THIS_MOD.config.allow_dupes or false
+THIS_MOD.config.starting_money_mode = THIS_MOD.config.starting_money_mode or 2
 
---- call file
-
-local files = {
-    "card/joker_value.lua",
-    "card/override.lua",
-    "card/card_logic.lua",
-    "localization/id.lua",
-    "localization/en-us.lua"
+--- Module Loader Sequence
+local module = {
+    "card/joker_pool.lua",
 }
 
-for _, file in ipairs(files) do
-    assert(SMODS.load_file(file))()
+for _, file in ipairs(module) do
+    local ok, chunk = pcall(SMODS.load_file, file)
+    if ok and chunk then
+        local loaded_module = chunk()
+        if type(loaded_module) == "table" and type(loaded_module.init) == "function" then
+            loaded_module.init()
+        end
+    else
+        sendWarnMessage("Failed to load module: " .. tostring(file), "Balatro Easy Mode")
+    end
 end
 
 local function get_config()
     return THIS_MOD.config
 end
 
-local ROLL_FOR_RARITY = {
-    [1] = 0.3,   -- Common
-    [2] = 0.85,  -- Uncommon
-    [3] = 0.99,  -- Rare
-}
-
 ----------------------------------------------------------------------
---- Hook 1: Rarity Lock 
-----------------------------------------------------------------------
-local ref_create_card = create_card
-
-function create_card(_type, area, legendary, _rarity, skip_materialize, soulable, forced_key, key_append)
-    local conf = get_config()
-
-    legendary, forced_key = c_override(legendary, _type, forced_key)
-    
-    if conf and conf.enabled and _type == 'Joker' and not forced_key then
-        if conf.rarity == 4 then
-            legendary = true
-            _rarity = nil
-        else
-            legendary = false
-            _rarity = ROLL_FOR_RARITY[conf.rarity] or 0.3
-        end
-    end
-
-    return ref_create_card(_type, area, legendary, _rarity, skip_materialize, soulable, forced_key, key_append)
-end
-
-----------------------------------------------------------------------
---- Hook 2: Safe Pool Fetcher
+--- Hook 1: Safe Pool Fetcher & Duplicate Handling
 ----------------------------------------------------------------------
 local ref_get_current_pool = get_current_pool
 
@@ -68,26 +39,30 @@ function get_current_pool(_type, _rarity, _legendary, _append)
     local conf = get_config()
 
     if conf and conf.enabled and _type == 'Joker' then
-        local saved = nil
+        local saved_used_jokers = nil
+        
+        -- Bypass duplicate restrictions if configured
         if conf.allow_dupes and G.GAME and G.GAME.used_jokers then
-            saved = G.GAME.used_jokers
+            saved_used_jokers = G.GAME.used_jokers
             G.GAME.used_jokers = {}
         end
 
         local pool, pool_key = ref_get_current_pool(_type, _rarity, _legendary, _append)
 
+        -- Fallback generator if pool is depleted
         if not pool or #pool == 0 then
             pool = {}
-            for k, v in pairs(G.P_CENTERS) do
-                if v.set == 'Joker' and not v.demo then
-                    table.insert(pool, k)
+            for key, center in pairs(G.P_CENTERS) do
+                if center.set == 'Joker' and not center.demo then
+                    table.insert(pool, key)
                 end
             end
             pool_key = 'Joker_Locked_Fallback'
         end
 
-        if saved then
-            G.GAME.used_jokers = saved
+        -- Restore original used table state
+        if saved_used_jokers then
+            G.GAME.used_jokers = saved_used_jokers
         end
 
         return pool, pool_key
@@ -97,14 +72,45 @@ function get_current_pool(_type, _rarity, _legendary, _append)
 end
 
 ----------------------------------------------------------------------
---- Config tab UI 
+--- Hook 2: Direct Starting Money Injection
+----------------------------------------------------------------------
+local ref_start_run = Game.start_run
+function Game:start_run(args)
+    ref_start_run(self, args)
+
+    -- Jalankan hanya jika run baru (bukan continue save)
+    if args and not args.savetext then
+        local conf = THIS_MOD.config
+        local mode = conf and conf.starting_money_mode or 2
+
+        local bonus_map = {
+            [1] = 0,   -- Disabled
+            [2] = 25,  -- Balanced
+            [3] = 50,  -- Casual
+            [4] = 100  -- Chaos
+        }
+
+        local bonus = bonus_map[mode] or 0
+
+        if bonus > 0 and G.GAME then
+            -- Tambahkan bonus uang langsung ke total uang player
+            G.GAME.dollars = G.GAME.dollars + bonus
+        end
+    end
+end
+
+
+----------------------------------------------------------------------
+--- User Interface: Mod Config Tab
 ----------------------------------------------------------------------
 THIS_MOD.config_tab = function()
     local conf = get_config()
+    
     return {
         n = G.UIT.ROOT,
         config = { align = 'cm', padding = 0.1, colour = G.C.CLEAR },
         nodes = {
+            -- Toggle: Allow Duplicate Jokers
             {
                 n = G.UIT.R,
                 config = { align = 'cm', padding = 0.1 },
@@ -118,18 +124,40 @@ THIS_MOD.config_tab = function()
             },
             {
                 n = G.UIT.R,
-                config = { align = 'cm', padding = 0.1 },
+                config = { align = 'cm', padding = 0.05 },
                 nodes = {
                     {
                         n = G.UIT.T,
                         config = {
-                            text = 'Duplicates affects Jokers only.',
+                            text = 'Duplicates affect Jokers pool only.',
                             scale = 0.32,
                             colour = G.C.UI.TEXT_LIGHT,
                         },
                     },
                 },
             },
+            -- Cycle Option: Starting Money Bonus 
+            {
+                n = G.UIT.R,
+                config = { align = 'cm', padding = 0.1 },
+                nodes = {
+                    create_option_cycle({
+                        label = 'Starting Money Bonus',
+                        options = {'Disabled ($0)', 'Balanced ($25)', 'Casual ($50)', 'Chaos ($100)'},
+                        current_option = conf.starting_money_mode or 2,
+                        opt_callback = 'update_starting_money_mode',
+                        ref_table = conf,
+                        ref_value = 'starting_money_mode',
+                    }),
+                },
+            },
         },
     }
+end
+
+G.FUNCS.update_starting_money_mode = function(e)
+    if e and e.to_key then
+        THIS_MOD.config.starting_money_mode = e.to_key
+        SMODS.save_mod_config(THIS_MOD) 
+    end
 end
