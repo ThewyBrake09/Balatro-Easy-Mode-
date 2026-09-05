@@ -1,4 +1,4 @@
-return = {
+--[[return = {
     descriptions = {
         Spectral = {
             c_ankh = {
@@ -19,4 +19,4 @@ return = {
             },
         },
     },
-}
+}]]--
