@@ -10,9 +10,13 @@ local files = {
     "localization/en-us.lua"  --and this
 }
  ```                          
-                           
+In addition uncomment localization/--.lua by removing
+```
+--[[......
+.......]]--
+```
+                          
 # What it does
 * it make ankh joker to create copy of random joker without destroying all of your joker
 * it make ectoplasm joker to create negative effect to tour random joker and +1 poker size instead of -1 hand size
 
-### There you go
